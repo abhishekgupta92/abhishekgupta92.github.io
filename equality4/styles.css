@@ -1,0 +1,38 @@
+body {
+    margin: 200px;
+    background-color: grey;
+}
+
+h1 {
+    color: yellow;
+    text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	width: 500px;
+    display: block;
+    margin: 50px auto;
+}
+ul {
+	list-style: square;
+}
+li {
+    margin: 5px;
+}
+p {
+    font-family: verdana;
+    font-size: 20px;
+    color: brown;
+}
+hr {
+	width: 500px;
+	text-align: center;
+}
+h3 {
+	color: pink;
+	text-align: center;
+}
