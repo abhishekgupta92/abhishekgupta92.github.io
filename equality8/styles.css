@@ -1,0 +1,97 @@
+body {
+    margin: 200px;
+    background-color: lightgrey;
+}
+
+h1 {
+    color: yellow;
+    text-align: center;
+    padding: 40px;
+    border: dotted blue 3px;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	width: 500px;
+    display: block;
+    margin: 50px auto;
+}
+ul {
+	list-style: none;
+}
+li {
+    margin: 5px;
+}
+p {
+    font-family: verdana;
+    font-size: 20px;
+    color: brown;
+    border: solid green 4px;
+    padding: 25px;
+}
+hr {
+	width: 500px;
+	text-align: center;
+}
+h3 {
+	color: pink;
+	text-align: center;
+}
+
+.flex-container {
+    display: flex;
+}
+.flex-item {
+    padding: 20px;
+    border: solid yellow 4px;
+}
+.flex-container-ul {
+    display: flex;
+    justify-content: space-between;
+}
+.flex-container-ul-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container-activism {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 300px;
+    background-color: skyblue;
+    margin: 50px auto;
+}
+
+.flex-item-activism-1 {
+    align-self: flex-start;
+    width: 50%;
+    padding: 20px;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+
+.flex-item-activism-2 {
+    width: 50%;    
+    padding: 20px;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+
+.flex-item-activism-3 {
+    align-self: flex-end;
+    width: 50%;
+    padding: 20px;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
