@@ -14,10 +14,6 @@ a {
 	text-decoration: none;
 }
 
-.flex-container-ul ul:nth-child(1) {
-    background: red;
-}
-
 img {
 	width: 500px;
     display: block;
@@ -56,11 +52,12 @@ h3 {
     display: flex;
     justify-content: flex-end;
 }
-.flex-item-1 {
-    background-color: blue;
+.flex-item-1-header {
+    background-color: whitesmoke;
     padding: 20px;
+    color: white;
 }
-.flex-item-2 {
+.flex-item-2-header {
     background-color: pink;
 }
 .flex-container-header {
